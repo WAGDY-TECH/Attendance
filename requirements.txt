@@ -1,0 +1,8 @@
+Flask>=3.0
+numpy>=1.26
+opencv-python-headless>=4.8   # needs cv2.FaceDetectorYN / FaceRecognizerSF (OpenCV >= 4.5.4)
+Pillow>=10.0
+waitress>=3.0                 # production server (optional for local use)
+
+# Optional alternative engine (needs dlib + CMake to build); set FACE_ENGINE=dlib
+# face_recognition>=1.3
